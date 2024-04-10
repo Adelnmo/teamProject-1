@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
 
+
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -84,4 +85,73 @@
   </main>
 </body>
 
+</html>
+=======
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>blueBox</title>
+
+    <!-- FONT -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- FONTAWESOME -->
+    <script
+      src="https://kit.fontawesome.com/e74bd487f0.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- STYLE SHEET -->
+    <link rel="stylesheet" href="./style/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="header__logo">blueBox</div>
+      this is header
+    </header>
+
+    <div class="sidebar">
+      <div class="user-info">
+        <img src="./images/avatar.jpg" alt="user image" class="user-image" />
+        <div>
+          <p class="user-neme">Angelina Doe</p>
+          <p class="user-gmail">A-Kiani@gmail.com</p>
+        </div>
+      </div>
+      <ul class="items">
+        <li class="item">Dashboard <i class="fa-solid fa-house"></i></li>
+        <li class="item">UI Elements<i class="fa-solid fa-cloud"></i></li>
+        <li class="item">Comenents<i class="fa-solid fa-face-smile"></i></li>
+        <li class="item">Form Stuff<i class="fa-solid fa-file"></i></li>
+        <li class="item">Date Table<i class="fa-solid fa-music"></i></li>
+        <li class="item">icons <i class="fa-solid fa-clipboard"></i></li>
+        <li class="item">sample Page <i class="fa-solid fa-gift"></i></li>
+        <li class="item">Extre <i class="fa-solid fa-eye"></i></li>
+      </ul>
+      <a href="#" class="sidebar-link">Add Project</a>
+    </div>
+
+    <main class="main">
+      <div class="title">title</div>
+      <section class="cards">cards</section>
+      <section class="table">
+        <h2 class="table__title">Standard Table Desin</h2>
+        <table class="table__container">
+          <tr class="table__row">
+            <th class="table__head">Name</th>
+            <th class="table__head">Email</th>
+            <th class="table__head">User Type</th>
+            <th class="table__head">Joined</th>
+            <th class="table__head">State</th>
+          </tr>
+          <tbody class="table__body"></tbody>
+        </table>
+      </section>
+    </main>
+
+    <script src="./js/script.js"></script>
+  </body>
 </html>
